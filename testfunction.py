@@ -8,7 +8,7 @@ print("data inserted ",insert_id)
 
 
 #read data 
-print("\nAll Users:")
+print("All Users:")
 users = get_all_data()
 for u in users:
     print(u)
