@@ -2,6 +2,13 @@ import customtkinter as ctk
 from db import get_all_data
 import threading
 from db import insert_data
+import subprocess
+import os
+
+
+
+script_path = os.path.join(os.path.dirname(__file__), "monitor.py")
+process = subprocess.Popen(["python", script_path])
 
 
 ctk.set_appearance_mode("dark")

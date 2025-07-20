@@ -1,7 +1,0 @@
-create some input fields 
-
-add crud operation 
-
-show the data on the app 
-
-for numbers add as slide-bar
